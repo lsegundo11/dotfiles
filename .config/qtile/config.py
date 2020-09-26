@@ -168,50 +168,50 @@ keys = [
              lazy.spawn("clipmenu"),
              desc='clipmenu'
              ),
-         Key([mod, "mod1"], "n",
-             lazy.spawn(myTerm+" -e newsboat"),
-             desc='newsboat'
-             ),
-         Key([mod, "mod1"], "r",
-             lazy.spawn(myTerm+" -e rtv"),
-             desc='reddit terminal viewer'
-             ),
-         Key([mod, "mod1"], "e",
-             lazy.spawn(myTerm+" -e neomutt"),
-             desc='neomutt'
-             ),
-         Key([mod, "mod1"], "m",
-             lazy.spawn(myTerm+" -e sh ./scripts/toot.sh"),
-             desc='toot mastodon cli'
-             ),
-         Key([mod, "mod1"], "t",
-             lazy.spawn(myTerm+" -e sh ./scripts/tig-script.sh"),
-             desc='tig'
-             ),
-         Key([mod, "mod1"], "f",
-             lazy.spawn(myTerm+" -e sh ./.config/vifm/scripts/vifmrun"),
-             desc='vifm'
-             ),
-         Key([mod, "mod1"], "j",
-             lazy.spawn(myTerm+" -e joplin"),
-             desc='joplin'
-             ),
-         Key([mod, "mod1"], "c",
-             lazy.spawn(myTerm+" -e cmus"),
-             desc='cmus'
-             ),
-         Key([mod, "mod1"], "i",
-             lazy.spawn(myTerm+" -e irssi"),
-             desc='irssi'
-             ),
+#         Key([mod, "mod1"], "n",
+#             lazy.spawn(myTerm+" -e newsboat"),
+#             desc='newsboat'
+#             ),
+#         Key([mod, "mod1"], "r",
+#             lazy.spawn(myTerm+" -e rtv"),
+#             desc='reddit terminal viewer'
+#             ),
+#         Key([mod, "mod1"], "e",
+#             lazy.spawn(myTerm+" -e neomutt"),
+#             desc='neomutt'
+#             ),
+#         Key([mod, "mod1"], "m",
+#             lazy.spawn(myTerm+" -e sh ./scripts/toot.sh"),
+#             desc='toot mastodon cli'
+#             ),
+#         Key([mod, "mod1"], "t",
+#             lazy.spawn(myTerm+" -e sh ./scripts/tig-script.sh"),
+#             desc='tig'
+#             ),
+#         Key([mod, "mod1"], "f",
+#             lazy.spawn(myTerm+" -e sh ./.config/vifm/scripts/vifmrun"),
+#             desc='vifm'
+#             ),
+#         Key([mod, "mod1"], "j",
+#             lazy.spawn(myTerm+" -e joplin"),
+#             desc='joplin'
+#             ),
+#         Key([mod, "mod1"], "c",
+#             lazy.spawn(myTerm+" -e cmus"),
+#             desc='cmus'
+#             ),
+#         Key([mod, "mod1"], "i",
+#             lazy.spawn(myTerm+" -e irssi"),
+#             desc='irssi'
+#             ),
          Key([mod, "mod1"], "y",
              lazy.spawn("firefox -p 'YoutubeTV' --kiosk youtube.com"),
              desc='youtube-viewer'
              ),
-         Key([mod, "mod1"], "a",
-             lazy.spawn(myTerm+" -e ncpamixer"),
-             desc='ncpamixer'
-             ),
+#         Key([mod, "mod1"], "a",
+#             lazy.spawn(myTerm+" -e ncpamixer"),
+#             desc='ncpamixer'
+#             ),
 ]
 
 group_names = [("WWW", {'layout': 'monadtall'}),
