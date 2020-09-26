@@ -192,7 +192,7 @@ alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 # bare git repo alias for dotfiles
-alias config="/usr/bin/git --git-dir=$HOME/LSF_git/dotfiles.git --work-tree=$HOME"
+alias config="/usr/bin/git --git-dir=$HOME/lsf_devel/dotfiles.git --work-tree=$HOME"
 
 # termbin
 alias tb="nc termbin.com 9999"
