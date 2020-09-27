@@ -1,7 +1,7 @@
-#  ____ _____ 
+#  ____ _____
 # |  _ \_   _|  Derek Taylor (DistroTube)
 # | | | || |    http://www.youtube.com/c/DistroTube
-# | |_| || |    http://www.gitlab.com/dwt1/ 
+# | |_| || |    http://www.gitlab.com/dwt1/
 # |____/ |_|
 #
 # My bash config. Not much to see here; just some pretty standard stuff.
@@ -76,7 +76,7 @@ ex ()
       *.7z)        7z x $1      ;;
       *.deb)       ar x $1      ;;
       *.tar.xz)    tar xf $1    ;;
-      *.tar.zst)   unzstd $1    ;;      
+      *.tar.zst)   unzstd $1    ;;
       *)           echo "'$1' cannot be extracted via ex()" ;;
     esac
   else
@@ -90,7 +90,7 @@ ex ()
 alias doas="doas --"
 
 # navigation
-alias ..='cd ..' 
+alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
@@ -103,8 +103,8 @@ alias emacs="emacsclient -c -a 'emacs'"
 
 # pacman and yay
 alias pacsyu='sudo pacman -Syyu'                 # update only standard pkgs
-alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
-alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
+#alias yaysua="yay -Sua --noconfirm"              # update only AUR pkgs
+#alias yaysyu="yay -Syu --noconfirm"              # update standard pkgs and AUR pkgs
 alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 
@@ -146,18 +146,18 @@ alias pscpu='ps auxf | sort -nr -k 3'
 alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
 
 # git
-alias addup='git add -u'
-alias addall='git add .'
-alias branch='git branch'
-alias checkout='git checkout'
-alias clone='git clone'
-alias commit='git commit -m'
-alias fetch='git fetch'
-alias pull='git pull origin'
-alias push='git push origin'
-alias status='git status'
-alias tag='git tag'
-alias newtag='git tag -a'
+#alias addup='git add -u'
+#alias addall='git add .'
+#alias branch='git branch'
+#alias checkout='git checkout'
+#alias clone='git clone'
+#alias commit='git commit -m'
+#alias fetch='git fetch'
+#alias pull='git pull origin'
+#alias push='git push origin'
+#alias status='git status'
+#alias tag='git tag'
+#alias newtag='git tag -a'
 
 # shutdown or reboot
 alias ssn="sudo shutdown now"
