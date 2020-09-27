@@ -201,10 +201,10 @@ keys = [
 #             lazy.spawn(myTerm+" -e cmus"),
 #             desc='cmus'
 #             ),
-#         Key([mod, "mod1"], "i",
-#             lazy.spawn(myTerm+" -e irssi"),
-#             desc='irssi'
-#             ),
+         Key([mod, "mod1"], "a",
+             lazy.spawn("atom"),
+             desc='atom'
+             ),
          Key([mod, "mod1"], "y",
              lazy.spawn("firefox -p 'YoutubeTV' --kiosk youtube.com"),
              desc='youtube-viewer'
@@ -374,7 +374,7 @@ def init_widgets_list():
 #                       background = colors[5],
 #                       threshold = 90,
 #                       padding = 5,
-#                       selection = "CLIPBOARD"	
+#                       selection = "CLIPBOARD"
 #                       ),
               widget.TextBox(
                        text='',
