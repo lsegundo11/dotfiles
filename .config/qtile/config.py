@@ -343,7 +343,7 @@ def init_widgets_list():
               #         fontsize = 37
               #         ),
               #widget.TextBox(
-              #         text = " ₿",
+              #         text = " $",
               #         padding = 0,
               #         foreground = colors[2],
               #         background = colors[4],
@@ -377,8 +377,8 @@ def init_widgets_list():
 #                       ),
               widget.TextBox(
                        text='',
-                       background = colors[4],
-                       foreground = colors[5],
+                       background = colors[0],
+                       foreground = colors[4],
                        padding = 0,
                        fontsize = 37
                        ),
@@ -447,7 +447,8 @@ def init_widgets_list():
               widget.Volume(
                        foreground = colors[2],
                        background = colors[5],
-                       padding = 5
+                       padding = 5,
+                       step = 5
                        ),
               widget.TextBox(
                        text = '',
