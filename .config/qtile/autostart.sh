@@ -1,3 +1,3 @@
-#! /bin/bash 
-picom &
-nitrogen --restore &
+#! /bin/bash
+#picom &
+#nitrogen --restore &
