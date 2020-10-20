@@ -5,7 +5,7 @@
 # |____/ |_|
 #
 # My bash config. Not much to see here; just some pretty standard stuff.
-# PATH="$HOME/.local/bin${PATH:+:${PATH}}"  # adding .local/bin to $PATH
+#PATH="$HOME/.local/bin${PATH:+:${PATH}}"  # adding .local/bin to $PATH
 
 ### EXPORT
 export TERM="xterm-256color"              # getting proper colors
@@ -116,10 +116,10 @@ alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/p
 alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
 
 # Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias ls='exa -al --color=always' # my preferred listing
+alias la='exa -a --color=always'  # all files and dirs
+alias ll='exa -l --color=always'  # long format
+alias lt='exa -aT --color=always' # tree listing
 alias l.='exa -a | egrep "^\."'
 
 # Colorize grep output (good for log files)
@@ -203,3 +203,4 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 
 ### RANDOM COLOR SCRIPT ###
 #/opt/shell-color-scripts/colorscript.sh random
+neofetch

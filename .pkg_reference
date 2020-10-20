@@ -1,4 +1,4 @@
 #packages that I like to have on arch!
 nano dmenu clipmenu mesa xorg xorg-init base-devel pulseaudio pavucontrol alsa-utils
-qtile alacritty xterm xnumlockx firefox base linux linux-firmware grub efibootmgr
+qtile alacritty xterm firefox base linux linux-firmware grub efibootmgr
 os-prober networkmanager picom nitrogen xscreensaver alsa-utils clang atom xreader vlc
