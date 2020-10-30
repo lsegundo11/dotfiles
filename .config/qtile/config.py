@@ -279,8 +279,8 @@ prompt = "{0}@{1}: ".format(os.environ["USER"], socket.gethostname())
 
 ##### DEFAULT WIDGET SETTINGS #####
 widget_defaults = dict(
-    font="Mononoki Nerd Font Mono",
-    fontsize = 12,
+    font="mononoki Nerd Font Mono",
+    fontsize = 14,
     padding = 2,
     background=colors[2]
 )
@@ -299,8 +299,8 @@ def init_widgets_list():
                        mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn('dmenu_run')}
                        ),
               widget.GroupBox(
-                       font = "Mononoki Nerd Font Mono",
-                       fontsize = 9,
+                       font = "mononoki Nerd Font Mono",
+                       fontsize = 14,
                        margin_y = 3,
                        margin_x = 0,
                        padding_y = 5,
@@ -320,7 +320,7 @@ def init_widgets_list():
                        ),
               widget.Prompt(
                        prompt = prompt,
-                       font = "Mononoki Nerd Font Mono",
+                       font = "mononoki Nerd Font Mono",
                        padding = 10,
                        foreground = colors[3],
                        background = colors[1]
@@ -377,40 +377,40 @@ def init_widgets_list():
 #                       selection = "CLIPBOARD"
 #                       ),
               widget.TextBox(
-                       text='',
+                       text='',
                        background = colors[0],
                        foreground = colors[4],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.TextBox(
-                       text = " ⟳",
-                       padding = 2,
+                       text = '勒',
+                       padding = 0,
                        foreground = colors[2],
                        background = colors[4],
-                       fontsize = 14
+                       fontsize = 18
                        ),
               widget.CheckUpdates(
                        distro="Arch",
                        no_update_string="Zippo",
-                       update_interval = 1800,
+                       update_interval = 180,
                        foreground = colors[2],
                        mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e sudo pacman -Syu')},
                        background = colors[4]
                        ),
               widget.TextBox(
-                       text = '',
+                       text = '',
                        background = colors[4],
                        foreground = colors[5],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.TextBox(
-                       text = " ",
+                       text = '',
                        foreground = colors[2],
                        background = colors[5],
                        padding = 0,
-                       fontsize = 14
+                       fontsize = 18
                        ),
               widget.Memory(
                        foreground = colors[2],
@@ -419,11 +419,11 @@ def init_widgets_list():
                        padding = 5
                        ),
               widget.TextBox(
-                       text='',
+                       text='',
                        background = colors[5],
                        foreground = colors[4],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.Net(
                        interface = "enp7s0",
@@ -433,11 +433,11 @@ def init_widgets_list():
                        padding = 5
                        ),
               widget.TextBox(
-                       text = '',
+                       text = '',
                        background = colors[4],
                        foreground = colors[5],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.TextBox(
                       text = " Vol:",
@@ -452,11 +452,11 @@ def init_widgets_list():
                        step = 5
                        ),
               widget.TextBox(
-                       text = '',
+                       text = '',
                        background = colors[5],
                        foreground = colors[4],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.CurrentLayoutIcon(
                        custom_icon_paths = [os.path.expanduser("~/.config/qtile/icons")],
@@ -471,11 +471,11 @@ def init_widgets_list():
                        padding = 5
                        ),
               widget.TextBox(
-                       text = '',
+                       text = '',
                        background = colors[4],
                        foreground = colors[5],
                        padding = 0,
-                       fontsize = 37
+                       fontsize = 38
                        ),
               widget.Clock(
                        foreground = colors[2],

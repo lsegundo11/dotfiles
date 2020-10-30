@@ -177,29 +177,32 @@ alias gpg-check="gpg2 --keyserver-options auto-key-retrieve --verify"
 alias gpg-retrieve="gpg2 --keyserver-options auto-key-retrieve --receive-keys"
 
 # youtube-dl
-alias yta-aac="youtube-dl --extract-audio --audio-format aac "
-alias yta-best="youtube-dl --extract-audio --audio-format best "
-alias yta-flac="youtube-dl --extract-audio --audio-format flac "
-alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias yta-opus="youtube-dl --extract-audio --audio-format opus "
-alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias yta-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytv-best="youtube-dl -f bestvideo+bestaudio "
+#alias yta-aac="youtube-dl --extract-audio --audio-format aac "
+#alias yta-best="youtube-dl --extract-audio --audio-format best "
+#alias yta-flac="youtube-dl --extract-audio --audio-format flac "
+#alias yta-m4a="youtube-dl --extract-audio --audio-format m4a "
+#alias yta-mp3="youtube-dl --extract-audio --audio-format mp3 "
+#alias yta-opus="youtube-dl --extract-audio --audio-format opus "
+#alias yta-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+#alias yta-wav="youtube-dl --extract-audio --audio-format wav "
+#alias ytv-best="youtube-dl -f bestvideo+bestaudio "
 
 # switch between shells
-alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
-alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
-alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
+#alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
+#alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+#alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 # bare git repo alias for dotfiles
 alias config="/usr/bin/git --git-dir=$HOME/lsf_devel/dotfiles.git --work-tree=$HOME"
 
 # termbin
-alias tb="nc termbin.com 9999"
+#alias tb="nc termbin.com 9999"
 
 # the terminal rickroll
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+
+#foundry alias
+#alias foundry='/home/luis/foundryvtt/foundryvtt'
 
 ### RANDOM COLOR SCRIPT ###
 #/opt/shell-color-scripts/colorscript.sh random
