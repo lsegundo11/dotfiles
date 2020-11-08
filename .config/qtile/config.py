@@ -393,7 +393,7 @@ def init_widgets_list():
               widget.CheckUpdates(
                        distro="Arch",
                        no_update_string="Zippo",
-                       update_interval = 180,
+                       update_interval = 60,
                        foreground = colors[2],
                        mouse_callbacks = {'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e sudo pacman -Syu')},
                        background = colors[4]
